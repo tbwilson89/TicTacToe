@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: gainsboro;
+}
+h1 {
+    font-size: 3em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    font-size: 3em;
+    justify-content: center;
+}
+.box {
+    font-size: .8em;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 0 0 5px black;
+    margin: 1px 1px 1px 1px;
+}
+.box:hover {
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+.box:active {
+    box-shadow: 0 -2px 3px white;
+}
+
+#start {
+}
+#gameDraw {
+    display: none;
+    margin-bottom: 10px;
+}
+#compWin {
+    display: none;
+    margin-bottom: 10px;
+}
+#restartGame {
+    margin-bottom: 10px;
+    display: none;
+}
+#gameBoard{
+    display: none;
+}
